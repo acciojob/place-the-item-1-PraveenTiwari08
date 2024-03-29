@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+p:first-child{
+	background-color:green;
+	width:100px;
+	height:100px;
+}
+
+p:nth-child(even){
+	background-color:red;
+	width:100px;
+	height:100px;
+}
+
+p:last-child{
+	background-color:blue;
+	width:100px;
+	height:100px;
+}
+
+.holder{
+	font-size:30px;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+}
